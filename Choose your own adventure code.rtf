@@ -2,25 +2,42 @@
 # welcome to the coder
 #
 
-# write a welcome message to the main character
+# write below a welcome message to the main character 
 print("Welcome\n")
 
-print("You run into a tiger")
-response = input('Enter a to [type option a] or enter b to [type option b]: ')
+# write below the setup for the first decision that the character makes as "prompt 1"
+print("prompt 1")
 
+# write below two choices as "option a" and "option b" 
+response = input('Enter a to [option a] or enter b to [option b]:')
+
+# this is where the code goes if the user chooses option a, write the result of choice a as "prompt 2a" and set up the next choice
 if response == 'a':
     print("prompt 2a")
+    
+    # write below two choices as "option a" and "option b" 
     response = input('Enter a to this or enter b to that: ')
+    
+    # this is where the code goes if the user chooses option a, write the result of choice a as "ending 1"
     if response == 'a':
         print("ending 1")
+    
+    # this is where the code goes if the user chooses option b, write the result of choice a as "ending 2"
     else:
         print("ending 2")
+    
+# this is where the code goes if the user chooses option a, write the result of choice a as "prompt 2b" and set up the next choice
 else:
     print("prompt 2b")
+    
+    # write below two choices as "option a" and "option b" 
     response = input('Enter a to this or enter b to that: ')
+    
+    # this is where the code goes if the user chooses option a, write the result of choice a as "ending 3"
     if response == 'a':
         print("ending 3")
-    else:
-        print("ending 4")
     
+    # this is where the code goes if the user chooses option b, write the result of choice a as "ending 2"
+    else:
+        print("ending 4")    
 
